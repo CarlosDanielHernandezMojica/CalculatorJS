@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <canvas id="cnv"></canvas>
+    <div class="calculator">
+        <div class="screen-container">
+            <input type="text" name="screen" id="screen" maxlength="10" disabled="disabled">
+        </div>
+        <div class="buttons-container">
+            <div class="column">
+                <button class="btn_special" id="btn_AC">AC</button>
+                <button id="btn_seven">7</button>
+                <button id="btn_four">4</button>
+                <button id="btn_one">1</button>
+                <button id="btn_zero">0</button>
+            </div>
+            <div class="column">
+                <button class="btn_special" id="btn_CE">CE</button>
+                <button id="btn_eight">8</button>
+                <button id="btn_five">5</button>
+                <button id="btn_two">2</button>
+                <button id="btn_point">.</button>
+            </div>
+            <div class="column">
+                <button class="btn_special" id="btn_percentage">%</button>
+                <button id="btn_nine">9</button>
+                <button id="btn_six">6</button>
+                <button id="btn_three">3</button>
+                <button id="btn_erase">B</button>
+            </div>
+            <div class="column">
+                <button class="btn_special" id="btn_divide">/</button>
+                <button class="btn_special" id="btn_multiply">x</button>
+                <button class="btn_special" id="btn_subtract">-</button>
+                <button class="btn_special" id="btn_add">+</button>
+                <button class="btn_special" id="btn_equal">=</button>
+            
+            </div>
+            
+        </div>
+
+    </div>
+    
+    <script src="js/index.js"></script>
+    <script src="js/background.js"></script>
+</body>
+</html>
